@@ -1,0 +1,117 @@
+/* ==UserStyle==
+@name           Custom CHESS
+@version        1.1.0
+@description    Custom chess.com boards
+@author         Magnus Christian Hvidtfeldt
+==/UserStyle== */
+
+    /* Insert code here... */
+    /* i really want this to be global */
+    /* Background Settings */
+    body,
+    html, {
+        background: #000!important;
+    }
+
+
+    .ui_v5-button-component.ui_v5-button-disabled,
+    .ui_v5-button-component:disabled {
+        /* filter: grayscale(.4); */
+        filter: grayscale(40%);
+    }
+    
+    
+    
+    .ui_v5-switch-checkbox:not(.ui_v5-switch-readonly):checked + .ui_v5-switch-label {
+        background-color: #d3843d;
+    }
+
+    
+    .ui_v5-button-component.ui_v5-button-primary {
+    background: #d3843d !important;
+    --borderColor: #d3843d !important;
+}
+    .time-selector-button-selected {
+    border: 0.3rem solid #d3843d !important;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+    .clock-remainder {
+        background: #d3843d !important;
+}
+    
+
+
+    .section-container-component {
+        /* background-color: #fff; */
+        /* border-radius: .3rem; */
+        background-color: #312f31;
+        border-radius: 2rem;
+        border-color: azure;
+    }
+
+
+
+    .home-quicklink:hover {
+        /* background: #f1f1f1; */
+        background: #412e6c;
+    }
+
+    .home-quicklink {
+        /* color: rgba(0,0,0,.7); */
+        color: rgb(75, 172, 86);
+    }
+
+    .user-activity-section-container-v5 {
+        /* border-radius: .5rem; */
+        border-radius: 1.5rem;
+    }
+
+
+
+    div[class^="daily-puzzle-board"],
+    div[class^="game-preview"],
+    div[class^="board chessboard-component"],
+    div[class^="board v-board chessboard-component"],
+    div[class^="board rounded"],
+    div[class^="board rounded fippled"],
+    div[class^="board fippled rounded"],
+    div[class^="board v-board rounded"],
+    div[class^="board v-board fippled rounded"],
+    div[class^="board disabled rounded"],
+    div[id$="_ChessBoard_boardarea"],
+    div[id^="chess_com_openingboard_1"],
+    div[id^="board_training"],
+    div[id^="divBoard_boardarea"],
+    div[id^="chess_com_tactics_board"],
+    div[id^="chessboard_"],
+    div[id*="chessboard_"],
+    div[id^="chess_com_chessmentorboard_"],
+    div[id*="chess_com_chessmentorboard_"],
+    div[id*="chess_com_chessmentor_board_1_boardarea"],
+    div[id^="chess_com_emailboard_"],
+    div[id="board"],
+    chess-board[class^="board"],
+    chess-board[class^="board flipped"],
+    chess-board[id^="board-blank"],
+    div[id*="chess_com_emailboard_"] {  
+        background-image: url("                   https://i.imgur.com/KQT8BKC.png                         ")!important; 
+    }
+        /*
+      ORANGE / RED : https://i.imgur.com/xwAqkVZ.png
+      STRONG RED : https://i.imgur.com/cH2lZFX.png
+      PUMPKIN SPICE : https://i.imgur.com/CITFIVo.png
+      SALMON : https://i.imgur.com/CoG7ZhE.png
+      LAVENDEL : https://i.imgur.com/qJPgpz2.png
+      DALE GREEN : https://i.imgur.com/pSlebf0.png
+        
+      GREY BLUE : https://i.imgur.com/yqnhwii.png       -       https://i.imgur.com/KQT8BKC.png
+      GREY GREEN : https://i.imgur.com/Yk4FPCz.png      -       https://i.imgur.com/pq2tJpT.png
+      FALL RED : https://i.imgur.com/cOkBsGL.png
+      DENTIST TURKISH : https://i.imgur.com/2URvScS.png
+      FALL YELLOW : https://i.imgur.com/i9o0poR.png
+      LIGHT DALE GREEN : https://i.imgur.com/TSEb5xy.png
+      BLUE : https://i.imgur.com/7K8tl5c.png
+      
+      */
+    

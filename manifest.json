@@ -1,11 +1,32 @@
 {
-    "name": "Covid-19 Stats UK",
-    "version": "1.0.0",
-    "description": "latest covid data of UK",
+    "name": "Custom CHESS",
+    "description": "Use custom chess.com boards for games!",
+    "version": "1.1.0",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
-    "action":{
+    "author": "Magnus Hvidtfeldt",
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      },
+      "action":{
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
-    }
-}
+        "default_title": "Custom CHESS"
+    },
+    "permissions": [
+        "activeTab",
+        "background"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.chess.com/*"],
+        "css": ["style.css"],
+        "run_at": "document_start",
+        "all_frames": true,
+        "js": [
+            "content.js"
+          ]
+      }
+    ]
+  }
