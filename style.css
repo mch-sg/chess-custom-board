@@ -95,7 +95,7 @@
     chess-board[class^="board flipped"],
     chess-board[id^="board-blank"],
     div[id*="chess_com_emailboard_"] {  
-        background-image: url("                   https://i.imgur.com/KQT8BKC.png                         ")!important; 
+        background-image: url("https://i.imgur.com/KQT8BKC.png")!important; 
     }
         /*
       ORANGE / RED : https://i.imgur.com/xwAqkVZ.png
